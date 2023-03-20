@@ -1,0 +1,15 @@
+#big{
+    color: blue;
+    background: aqua;
+    text-decoration: underline;
+}
+#small{
+    color: beige;
+    background: black;
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+}
+#para{
+    color: green;
+    background: aquamarine;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+}
