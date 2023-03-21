@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title></title>
 </head>
 <body>
-<p>Welcome to Django</p>
+<h1>Welcome to Django</h1>
 <ul>
     {% for post in posts %}
-    <li>{{post.title}}</li>
-    <li>{{post.body}}</li>
+    <li><h2>{{post.title}}</h2></li>
+    <li><h3>{{post.body}}</h3></li>
+    <li>{{ post.author }}</li>
+    <li> {{ post.created_at }}</li>
     {% endfor %}
 </ul>
 </body>
